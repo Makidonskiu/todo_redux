@@ -41,11 +41,11 @@ export const AddTodo = () => {
                             variant="outline-secondary " id="button-addon2">
                             Удалить   
                             </Button>
-                            <Button 
+                            {/* <Button 
                             onClick={()=> dispatch(setChange(item.id))}
                             variant="outline-secondary" id="button-addon2">
                             Изменить   
-                            </Button>
+                            </Button> */}
                         </InputGroup>
                 </div>
             ))
