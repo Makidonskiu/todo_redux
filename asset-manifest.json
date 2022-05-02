@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Makidonskiu/todo_redux.git/static/css/main.0fe0fce9.css",
-    "main.js": "/Makidonskiu/todo_redux.git/static/js/main.2bb0aea9.js",
-    "index.html": "/Makidonskiu/todo_redux.git/index.html",
-    "main.0fe0fce9.css.map": "/Makidonskiu/todo_redux.git/static/css/main.0fe0fce9.css.map",
-    "main.2bb0aea9.js.map": "/Makidonskiu/todo_redux.git/static/js/main.2bb0aea9.js.map"
+    "main.css": "/todo_redux/static/css/main.0fe0fce9.css",
+    "main.js": "/todo_redux/static/js/main.2bb0aea9.js",
+    "index.html": "/todo_redux/index.html",
+    "main.0fe0fce9.css.map": "/todo_redux/static/css/main.0fe0fce9.css.map",
+    "main.2bb0aea9.js.map": "/todo_redux/static/js/main.2bb0aea9.js.map"
   },
   "entrypoints": [
     "static/css/main.0fe0fce9.css",
