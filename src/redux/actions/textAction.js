@@ -1,4 +1,4 @@
-import { SET_TEXT, SET_DELITE, SET_DONE, SET_CHANGE } from "./actionTypes"
+import { SET_TEXT, SET_DELITE, SET_DONE } from "./actionTypes"
 
 export const setTask = (data) => {
     return {
@@ -21,9 +21,3 @@ export const setDone = (data) => {
     }
 }
 
-export const setChange = (data) => {
-    return {
-        type: SET_CHANGE,
-        payload: data
-    }
-}

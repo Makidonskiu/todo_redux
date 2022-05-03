@@ -1,5 +1,5 @@
 import { InputGroup, FormControl, Button } from "react-bootstrap"
-import { setTask , setDelite, setDone, setChange } from "../redux/actions/textAction"
+import { setTask , setDelite, setDone } from "../redux/actions/textAction"
 import { useDispatch, useSelector } from "react-redux"
 import { useState } from "react";
 
@@ -29,7 +29,7 @@ export const AddTodo = () => {
         {
             todos.map((item, index)=> (
                 <div 
-                    key={index + `${item}`}> 
+                    key={item.id}> 
                         <InputGroup className="mb-3">
                             <p className="margin" 
                             onClick={()=> dispatch(setDone(item.id))} 
@@ -41,12 +41,7 @@ export const AddTodo = () => {
                             variant="outline-secondary " id="button-addon2">
                             Удалить   
                             </Button>
-                            {/* <Button 
-                            onClick={()=> dispatch(setChange(item.id))}
-                            variant="outline-secondary" id="button-addon2">
-                            Изменить   
-                            </Button> */}
-                        </InputGroup>
+                        </InputGroup> 
                 </div>
             ))
         }
